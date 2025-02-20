@@ -32,13 +32,13 @@ sudo chmod 666 /dev/DriverFran*
 ```
 - Ejecutamos los drivers (estos son algunos ejemplos que cumplen los teoremas):
 ```
-echo "3 4 5" /dev/DriverFran0
+echo "3 4 5" > /dev/DriverFran0
 ```
 ```
-echo "3" /dev/DriverFran1
+echo "3" > /dev/DriverFran1
 ```
 ```
-echo "10 5" /dev/DriverFran2
+echo "10 5" > /dev/DriverFran2
 ```
 - Mostramos los últimos mensajes del buffer del kernel para ver los mensajes de depuración del kernel:
 ```
