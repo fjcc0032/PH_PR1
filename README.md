@@ -50,7 +50,7 @@ Debería salir este resultado: <br>
 ```
 sudo rmmod DriverFran
 ```
-- Borramos los archivos generados por el ```make``` para limpiar la compilación
+- Borramos los archivos generados por el ```make``` para limpiar la compilación:
 ```sh
 make clean
 ```
