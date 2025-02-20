@@ -40,7 +40,7 @@ echo "3" > /dev/DriverFran1
 ```
 echo "10 5" > /dev/DriverFran2
 ```
-- Mostramos los últimos mensajes del buffer del kernel para ver los mensajes de depuración del kernel:
+- Mostramos los últimos mensajes del buffer del kernel para ver los mensajes de depuración del driver:
 ```
 sudo dmesg | tail -n 50
 ```
